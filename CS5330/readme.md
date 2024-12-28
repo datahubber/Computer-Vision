@@ -1,1 +1,1 @@
-Northeastern University computer vision course.
+Code and result of functions in Northeastern University computer vision courss.
