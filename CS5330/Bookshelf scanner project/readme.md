@@ -1,7 +1,7 @@
 # Bookshelf Scanner App
 
 ## Introduction
-Problem statement: Detect book titles and authors from bookshelf image
+Problem statement: Detect book titles and authors from bookshelf image n/
 Architecture components: AI, Backend and Frontend
 AI: Yolo v11 segmentation model, Moondream2 large language model, llama.cpp and quantization.
 Backend: FastAPI and streaming results.
