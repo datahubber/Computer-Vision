@@ -7,7 +7,7 @@ Recognize book name, ISBN number automaticly, save human labor.
 ```
 make result
 ```
-<img src="dataset/img_1_result.jpg"
+<img src="dataset/img_1_result.jpg">
 
 ### Prerequisites
 You need to have the following software installed to run the project:
