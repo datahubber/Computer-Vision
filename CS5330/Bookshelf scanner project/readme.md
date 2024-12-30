@@ -4,10 +4,7 @@
 Recognize book name, ISBN number automaticly, save human labor.
 
 ## Demo
-```
-make result
-```
-<img src="ai/dataset/img_1_result.jpg">
+<img src="demo.jpg">
 
 ### Prerequisites
 You need to have the following software installed to run the project:
