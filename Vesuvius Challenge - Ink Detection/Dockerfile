@@ -1,9 +1,0 @@
-FROM nvcr.io/nvidia/pytorch:21.04-py3
-
-WORKDIR /workspace
-COPY ./ ./
-
-VOLUME ./
-
-ENV NVIDIA_VISIBLE_DEVICES all
-ENV NVIDIA_DRIVER_CAPABILITIES all
