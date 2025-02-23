@@ -8,4 +8,4 @@ Participants in the $100,000 Vesuvius Challenge are tasked with detecting ink on
 utilizes deep learning, specifically a U-Net-based segmentation model with a ResNet encoder, to identify regions likely containing ink. The decoder consists of two stages, with the first stage operating on multiple 2D slices from the 3D volume and the second stage refining the results. Includes attention mechanisms to improve the model's focus on relevant features. Mixup augmentations and Test Time Augmentations (TTA). Applies post-processing using a denoising algorithm to clean up predictions.  
 
 # Result
-Silver medal, rank 46th.
+Silver medal, rank 46th out of 1249 teams.
