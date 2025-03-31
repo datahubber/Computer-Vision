@@ -1,0 +1,20 @@
+1. Summary of Activities
+This week, I focused on analyzing the results generated from the YOLO model for hand gesture tracking in the "Guess Which Hand" game. I completed the processing of all 20 videos, generating hand landmark data and predictions, which were saved as CSV files. A sample of the output (as shown in the dataset screenshot) includes detailed coordinates (x, y, z) for landmarks such as the wrist, thumb, and index finger, along with predictions for the presence of the right hand. I also began preparing a research poster to summarize the project’s background, methods, results, and conclusions for an upcoming presentation. Additionally, I reviewed the model’s performance by comparing predicted results against ground truth annotations and started drafting conclusions based on the findings.
+
+2. Progress and Achievements
+Result Analysis: Successfully analyzed the CSV output files generated from the 20 videos. For example, in frame 0 of one video, the YOLO model identified the right hand with landmarks such as the wrist at (0.759, 0.716, -0.169) and the index finger tip at (0.721, 0.790, -0.059), correctly predicting "right_hand_present" as TRUE. This indicates the model’s ability to detect hand gestures accurately in most frames.
+Poster Preparation: Drafted a research poster with sections for Background, Approaches, Outcome, and Conclusions. The poster includes a detailed description of the "Guess Which Hand" game, the methodology using YOLO and TensorFlow, and a summary of the results from the CSV files.
+Model Evaluation: Conducted a preliminary evaluation of the model’s performance, noting that it reliably detected the right hand in the majority of frames. However, some inconsistencies were observed in cases with occlusions or poor lighting.
+Documentation: Updated project documentation with the latest findings and prepared references for the poster, including citations for YOLO, TensorFlow, and the video example (https://www.youtube.com/shorts/_twFdZ0LYuU).
+3. Challenges Encountered
+Occlusions and Lighting: The YOLO model struggled with frames where the hand was partially occluded or when lighting conditions were suboptimal, leading to incorrect predictions in a few cases. For instance, in some frames, the model failed to detect the right hand due to shadows or overlapping objects.
+Data Annotation Gaps: While the dataset was pre-labeled, I noticed minor inconsistencies in the ground truth annotations for a few videos, which may have affected the model’s training and evaluation accuracy.
+Poster Design: Formatting the research poster to fit all necessary details while maintaining clarity was challenging. I had to balance text, visuals, and data tables (like the CSV output) to ensure the poster is both informative and visually appealing.
+4. Plan for Next Week
+Model Refinement: Experiment with additional preprocessing techniques, such as image augmentation (e.g., adjusting brightness and contrast), to improve the model’s robustness against occlusions and varying lighting conditions.
+Further Evaluation: Conduct a more detailed evaluation of the model’s performance by calculating metrics such as precision, recall, and F1-score for hand detection and gesture prediction.
+Poster Finalization: Finalize the research poster by incorporating feedback from peers or mentors, adding visualizations of the hand landmarks, and refining the Conclusions section to highlight the project’s implications and future work.
+Prepare Presentation: Begin preparing a presentation to accompany the poster, focusing on explaining the methodology, results, and potential applications of hand gesture tracking in gaming and human-computer interaction.
+5. Additional Notes
+I plan to explore integrating other pose estimation models, such as HRNet or OpenPose, to compare their performance with YOLO and potentially improve accuracy in challenging scenarios.
+I may need additional guidance on advanced evaluation metrics for pose estimation tasks, as I’m currently relying on basic comparison methods.
